@@ -1,0 +1,197 @@
+
+
+
+/* O rodapé está sendo estilizado na linha 128 desse arquivo style.css */
+/* Todos os arquivos utilizam o mesmo arquivo css. */
+
+/* body{
+  font-family: 'Inconsolata', monospace;
+} */
+
+
+/* Padding menu items */
+.navbar .nav-link {
+  font-size: 14px;
+  text-transform: uppercase;
+  padding-left: 1rem !important;
+  padding-right: 1rem !important;
+}
+
+/* Adding vertical bar to menu */
+.navbar .nav-item.active {
+  border-left: #444 3px solid;
+}
+
+
+    /* Setting banner color */
+    .banner{
+      /* background-color: #111141; */
+        background: #2D2d3b;
+        background-attachment: fixed;
+        background-size: cover;
+    }
+
+    /* Styling the button */
+    .show-btn{
+      position: fixed;
+      right: 0px;
+      z-index: 1;
+      bottom: 10px;
+    }
+    
+
+    #mission{
+      margin-top: 150px;
+    }
+
+    #title-mission {
+      font-size: 25px;
+    }
+
+    #title-about {
+      font-size: 25px;
+    }
+
+    #p-mission{
+      font-size: 25px;
+    }
+
+    .p-about{
+      font-size: 20px;
+    }
+
+    #photos{
+      margin-top: 200px;
+    }
+
+    #projects{
+      height: 450px;
+      background-image: url(../img/sala2.png);
+      background-repeat: no-repeat;
+       background-size: cover;
+      /* background-attachment: fixed;  */
+    }
+
+    #projetos p{
+      font-size: 20px;
+    }
+
+    #second-row{
+      margin-bottom: 150px;
+    }
+
+    #services{
+      height: 400px;
+      background-image: url(../img/leafs.png);
+      background-repeat: no-repeat;
+      background-size: cover;
+      /* min-height: 400px; */
+    }
+    
+    #type-services h3{
+      font-size: 30px;
+    }
+
+    #type-services p{
+      font-size: 20px;
+    }
+
+    #aboutus{
+      height: 400px;
+      background-image: url(../img/madeira.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      /* min-width: 500px; */
+    }
+
+    #gallery img{
+      width: 400px;
+      height: 300px;
+    }
+
+#contact p{
+  font-size: 18px;
+}    
+
+#contact input{
+  font-size: 16px;
+}
+
+
+.page-header {
+  height: 350px;
+  background: url('../img/madeira-final.jpg');
+  /* background-color: #2D2d3b; */
+  /* background-position: 0 -360px; */
+  background-attachment: fixed;
+  background-size: cover;
+  color: #fff;
+  border-bottom: 1px #eee solid;
+  padding-top: 50px;
+}
+
+
+.info-header {
+  width: 50%;
+  margin: auto;
+  border-bottom: 1px #ddd solid; }
+
+#type-services .card:hover {
+  /* background-color: #34346e; */
+  background-color: #54546e;
+  color: #fff; }
+
+.about-img {
+  margin-top: -50px;
+  margin-left: 100px;
+}
+
+/* Media querie para consertar o botao */
+
+@media (max-width: 576px) {
+  .btn-responsive {
+    padding:3px 6px;
+    font-size:90%;
+    line-height: 2;
+    border-radius:3px;
+  }
+  .caixa{
+    width: 100%;
+  }
+
+  #p-mission{
+    text-align: center;
+  }
+
+  #title-mission{
+    text-align: center;
+  }
+
+}
+
+@media (min-width: 577px) {
+  .caixa{
+    width: 50%;
+  }
+
+  #p-mission{
+    text-align: justify;
+  }
+
+  #title-mission{
+    text-align: left;
+  }
+}
+
+#footer {
+  background-color: #101022;
+  color: #fff;
+  width: 100%;
+  height: 80px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 15px;
+}
+
